@@ -1,0 +1,18 @@
+Found a quick way to look up everything about Telegram accounts — and built a bot for it.
+
+@usergtidbot — a bot that instantly returns the **Telegram ID** of any user, group, or channel. But it does a lot more than that.
+
+What it can do:
+
+— **Native picker buttons** — no need to forward messages or copy usernames. Tap a button, pick a contact, get the result
+— **Datacenter detection** — shows which Telegram DC stores the account (DC1-DC5)
+— **Account age** — estimates registration date from ID ranges + badges (OG, Veteran, Newcomer)
+— **Username history** — tracks username changes over time
+— **Inline mode** — type @usergtidbot in any chat to get IDs without switching to the bot
+— **QR codes** with account ID
+— **Compare accounts** — who registered first, age difference
+— **Export** — JSON and CSV for integrations and scripts
+
+For bot developers and group admins, this is a daily driver. When you're setting up webhooks, writing a bot, or managing group permissions, you need IDs constantly. Plus the datacenter info is handy for debugging message delivery.
+
+Give it a try: @usergtidbot — just hit Start.

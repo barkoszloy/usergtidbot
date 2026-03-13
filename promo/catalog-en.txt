@@ -1,0 +1,1 @@
+Instantly finds Telegram IDs for users, groups, and channels. Native contact picker buttons, datacenter detection (DC1-DC5), registration date estimation, account age badges, visual ID card (PNG), birthday, emoji status, collectible usernames, personal channel, business profile, username history, inline mode, QR codes, account comparison, JSON and CSV export.
