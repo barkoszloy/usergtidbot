@@ -37,19 +37,30 @@ The quickest way to find any Telegram ID is the [@usergtidbot](https://t.me/user
 The bot returns more than just the ID:
 
 - **Telegram ID** — the numeric identifier
-- **Datacenter** — which Telegram server (DC1 through DC5) hosts the account. DC1 and DC3 are in Miami, DC2 is in Amsterdam, DC4 is also in Amsterdam, and DC5 is in Singapore
-- **Estimated registration date** — based on known ID ranges, the bot estimates when the account was created
-- **Account age badge** — labels like "OG" (2013-2014), "Veteran" (2015-2017), or "Newcomer" (recent registrations)
+- **Datacenter** — which Telegram server (DC1 through DC5) hosts the account. DC1 and DC3 are in Miami, DC2 and DC4 are in Amsterdam, DC5 is in Singapore
+- **Estimated registration date** — based on known ID ranges, the bot estimates when the account was created (accuracy: ±2-3 months)
+- **Account age badge** — Veteran (10+ years), Experienced (5-10), Seasoned (2-5), Regular (1-2), Newcomer (< 1 year)
 - **Username history** — if the bot has tracked changes, it shows previous usernames
+- **Birthday** — if the user has set their birthday in Telegram
+- **Emoji status** — current custom emoji status (Premium feature)
+- **All active usernames** — including collectible usernames purchased on Fragment
+- **Personal channel** — linked personal channel, if set
+- **Forward privacy** — whether the user has restricted message forwarding
+- **Profile color** — custom accent color (Premium feature)
+- **Business profile** — location and working hours for Telegram Business accounts
+- **Profile photos count** — total number of profile photos
+- **Bio** — the user's "About" text
+- **Scam/Fake detection** — flags accounts marked by Telegram as scam or fake
 
 ### Extra features
 
+- **Visual ID Card** — Generate a PNG card with avatar, ID, datacenter, registration date, and age badge
 - **Inline mode** — Type `@usergtidbot` in any chat to look up IDs without opening the bot
 - **QR code** — Generate a QR code containing the account ID
 - **Compare accounts** — See which of two accounts was registered first
 - **JSON export** — Get structured data for use in scripts or APIs
 - **CSV export** — Export data for spreadsheets or bulk processing
-- **Group admin tools** — Useful for managing group members at scale
+- **Group admin tools** — List admins, check permissions, member count
 - **Referral system** — Share the bot and track referrals
 
 This is the most feature-rich option available. No forwarding messages, no copying links — just tap and get results.
@@ -147,6 +158,10 @@ This is how bots internally resolve user IDs, but it's overkill if you just need
 | Datacenter detection | Yes | No | No | No | No |
 | Registration date estimate | Yes | No | No | No | No |
 | Account age badges | Yes | No | No | No | No |
+| Birthday / emoji status | Yes | No | No | No | No |
+| Collectible usernames | Yes | No | No | No | No |
+| Business profile info | Yes | No | No | No | No |
+| Visual ID card (PNG) | Yes | No | No | No | No |
 | Username history | Yes | No | No | No | No |
 | Inline mode | Yes | No | No | N/A | N/A |
 | QR code | Yes | No | No | No | No |

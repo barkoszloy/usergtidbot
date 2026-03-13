@@ -7,12 +7,20 @@ What it can do:
 — **Native picker buttons** — no need to forward messages or copy usernames. Tap a button, pick a contact, get the result
 — **Datacenter detection** — shows which Telegram DC stores the account (DC1-DC5)
 — **Account age** — estimates registration date from ID ranges + badges (OG, Veteran, Newcomer)
+— **Visual ID card** — generates a PNG card with avatar, ID, datacenter, and age badge
+— **Birthday & emoji status** — shows birthday and current custom emoji status (Premium)
+— **Collectible usernames** — displays all active usernames, including those purchased on Fragment
+— **Personal channel & business profile** — linked channel, business location, and working hours
+— **Forward privacy & voice/video** — account restriction flags
+— **Profile color** — custom accent color (Premium feature)
+— **Profile photos** — total profile photo count
+— **Bio & scam detection** — "About" text and Telegram's scam/fake flags
 — **Username history** — tracks username changes over time
 — **Inline mode** — type @usergtidbot in any chat to get IDs without switching to the bot
 — **QR codes** with account ID
 — **Compare accounts** — who registered first, age difference
 — **Export** — JSON and CSV for integrations and scripts
 
-For bot developers and group admins, this is a daily driver. When you're setting up webhooks, writing a bot, or managing group permissions, you need IDs constantly. Plus the datacenter info is handy for debugging message delivery.
+For bot developers and group admins, this is a daily driver. When you're setting up webhooks, writing a bot, or managing group permissions, you need IDs constantly. Plus the full account profile with DC, age, business info, and username history is a bonus no other bot offers.
 
 Give it a try: @usergtidbot — just hit Start.
